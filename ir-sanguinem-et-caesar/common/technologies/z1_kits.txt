@@ -1,0 +1,332 @@
+technologies = {
+
+@1939 = 0
+@1940 = 2
+@1941 = 4
+@1942 = 6
+
+@first_row = -3
+@middle_row = -1
+@second_row = 1
+@third_row = 4
+
+	####### Desert Kit
+
+	desert_kit_technology = {
+
+		enable_equipments = {
+			desert_kit_1
+		}
+
+		enable_subunits = {			desert_support		}
+
+		# desc = "desert_kit1_special_desc"
+
+    path = {
+      leads_to_tech = desert_kit2_technology
+      research_cost_coeff = 1
+    }
+
+		dependencies = { tech_support = 1	}
+
+    research_cost = 1.7
+    start_year = 1939
+
+    folder = {
+      name = specialised_folder
+      position = { x = @first_row y = @1939 }
+    }
+
+    categories = {
+			support_tech
+    }
+
+    ai_will_do = {
+      factor = 0.6
+    }
+
+		allow = {
+				any_state = {
+					is_controlled_by = ROOT
+					has_hot_climate = yes
+			}
+		}
+  }
+
+	desert_kit2_technology = {
+
+		desert_support = {
+
+			max_organisation = 5
+
+			desert = {
+				defence = 0.15
+				attack = 0.1
+	      movement = 0.15
+			}
+		}
+
+		path = {
+			leads_to_tech = heat_kit_technology
+			research_cost_coeff = 1
+		}
+
+		on_research_complete = {			custom_effect_tooltip = desert_kit2_special_tooltip		}
+		# desc = "desert_kit2_special_desc"
+
+	  research_cost = 1.5
+    start_year = 1940
+
+    folder = {
+      name = specialised_folder
+      position = { x = @first_row y = @1940 }
+    }
+
+    categories = {
+			support_tech
+    }
+
+    ai_will_do = {
+      factor = 0.6
+    }
+
+  }
+
+	####### Jungle Kit
+
+	jungle_kit_technology = {
+
+		enable_equipments = {
+			jungle_kit_1
+		}
+
+		enable_subunits = {
+			jungle_support
+		}
+
+    path = {
+      leads_to_tech = jungle_kit2_technology
+      research_cost_coeff = 1
+    }
+
+    research_cost = 1.7
+    start_year = 1939
+
+    folder = {
+      name = specialised_folder
+      position = { x = @second_row y = @1939 }
+    }
+
+    categories = {
+			support_tech
+    }
+
+    ai_will_do = {
+      factor = 0.6
+    }
+
+		dependencies = { tech_support = 1	}
+
+		allow = {
+				any_state = {
+					is_controlled_by = ROOT
+					has_jungle_climate = yes
+			}
+		}
+  }
+
+	jungle_kit2_technology = {
+
+		jungle_support = {
+
+			max_organisation = 5
+
+			jungle = {
+				defence = 0.15
+				attack = 0.1
+				movement = 0.15
+			}
+		}
+
+		path = {
+			leads_to_tech = heat_kit_technology
+			research_cost_coeff = 1
+		}
+
+		on_research_complete = {
+			custom_effect_tooltip = jungle_kit2_RESEARCHED
+		}
+		## desc = "jungle_kit2_RESEARCHED"
+
+	  research_cost = 1.5
+    start_year = 1940
+
+    folder = {
+      name = specialised_folder
+      position = { x = @second_row y = @1940 }
+    }
+
+    categories = {
+			support_tech
+    }
+
+    ai_will_do = {
+      factor = 0.6
+    }
+
+  }
+
+	####### Winter Kit
+	## Fucking hell I tried it all...but global modifier it must be it seems
+
+		winter_kit_technology = {
+
+	    path = {
+	      leads_to_tech = winter_kit2_technology
+	      research_cost_coeff = 1
+	    }
+
+	    research_cost = 1.5
+	    start_year = 1941
+
+	    folder = {
+	      name = specialised_folder
+	      position = { x = @third_row y = @1941 }
+	    }
+
+			modifier = {
+				 winter_attrition_factor = -0.25
+			}
+
+	    categories = {
+				support_tech
+	    }
+
+			allow = {
+					any_state = {
+						is_controlled_by = ROOT
+						has_cold_weather = yes
+	      }
+			}
+
+	    ai_will_do = {
+	      factor = 1
+				modifier = {
+					factor = 3
+					tag = FIN
+				}
+				modifier = {
+					factor = 2
+					tag = NOR
+				}
+				modifier = {
+					factor = 2
+					tag = SWE
+				}
+	    }
+
+			dependencies = { tech_support = 1	}
+			dependencies = { mechanised_infantry = 1	}
+
+	  }
+
+		winter_kit2_technology = {
+
+			modifier = {
+				 winter_attrition_factor = -0.25
+			}
+
+	    research_cost = 1.2
+	    start_year = 1942
+
+	    folder = {
+	      name = specialised_folder
+	      position = { x = @third_row y = @1942 }
+	    }
+
+	    categories = {
+				support_tech
+	    }
+
+			ai_will_do = {
+	      factor = 1
+				modifier = {
+					factor = 3
+					tag = FIN
+				}
+				modifier = {
+					factor = 2
+					tag = NOR
+				}
+				modifier = {
+					factor = 2
+					tag = SWE
+				}
+	    }
+
+			dependencies = { mechanised_infantry2 = 1	}
+
+	  }
+
+		## Heat Kits
+
+		heat_kit_technology = {
+
+	    path = {
+	      leads_to_tech = heat_kit2_technology
+	      research_cost_coeff = 1
+	    }
+
+	    research_cost = 1.5
+	    start_year = 1940
+
+	    folder = {
+	      name = specialised_folder
+	      position = { x = @middle_row y = @1940 }
+	    }
+
+			modifier = {
+				 heat_attrition_factor = -0.25
+			}
+
+	    categories = {
+				support_tech
+	    }
+
+	    ai_will_do = {
+	      factor = 1
+	    }
+
+	  }
+
+		heat_kit2_technology = {
+
+	    path = {
+	      leads_to_tech = heat_kit2_technology
+	      research_cost_coeff = 1
+	    }
+
+	    research_cost = 1.5
+	    start_year = 1941
+
+	    folder = {
+	      name = specialised_folder
+	      position = { x = @middle_row y = @1941 }
+	    }
+
+			modifier = {
+				 heat_attrition_factor = -0.25
+			}
+
+	    categories = {
+				support_tech
+	    }
+
+	    ai_will_do = {
+	      factor = 1
+	    }
+
+	  }
+
+
+}

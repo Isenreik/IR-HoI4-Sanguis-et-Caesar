@@ -1,0 +1,15 @@
+on_actions = {
+
+  on_startup = {
+		effect = {
+
+      set_global_flag = has_Sanglac_Kaiser_patch
+
+      every_country = {
+        set_technology = { kaiserreich_inf_tech = 1 }
+      }
+
+		}
+	}
+
+}

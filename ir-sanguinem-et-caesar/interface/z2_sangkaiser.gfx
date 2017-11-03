@@ -1,0 +1,5 @@
+spriteTypes = {
+
+  SpriteType = { name = "GFX_kaiserreich_inf_tech_medium"    texturefile = "gfx//interface//trulz//law_animu_kaiserreich.dds"    alwaystransparent = yes	}
+
+}

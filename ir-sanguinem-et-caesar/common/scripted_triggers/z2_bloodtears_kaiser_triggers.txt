@@ -1,0 +1,10 @@
+
+is_free_enough_to_politics = {
+	AND = {
+		NOT = { has_autonomy_state = kr_occupied_puppet }
+		NOT = { has_autonomy_state = kr_autonomous_puppet }
+		NOT = { has_autonomy_state = kr_special_autonomous_dependency }
+		NOT = { has_autonomy_state = kr_integrated_puppet }
+		NOT = { has_autonomy_state = kr_default_puppet }
+	}
+}

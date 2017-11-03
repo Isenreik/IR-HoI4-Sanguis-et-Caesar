@@ -1,0 +1,67 @@
+l_german:
+
+bureau_folder: "Taktik & Amt"
+bureau_folder_desc: "Verschiedene Taktiken und Zivilministerien."
+
+## Officers
+
+tactics_TITLE_OFFICERS: "OFFIZIERE & AUSBILDUNG"
+OFFICERS_TECH_DESC: "Ausbildung für unsere Generäle und Offiziere, um ihre Fähigkeit zu erhöhen, unsere Truppen zu kommandieren."
+
+flight_officers_subtitle_label: "Flugschule"
+flight_officers_subtitle_tt: "Ausbildung für unsere Piloten."
+officer_schools_subtitle_label: "Offiziersschulen"
+officer_schools_subtitle_tt: "Ausbildung für unsere Generäle und Offiziere, um ihre Fähigkeit zu erhöhen, unsere Truppen zu kommandieren."
+
+officers_tech1: "Integrierte Offiziersschulen"
+officers_tech1_desc: "Für die längste Zeit kamen Offiziere von unserer Elite oder Adel, aber wenn der letzte Krieg etwas bewiesen hat, so ist es, dass unser Offizier mit dem Soldaten durch den Schlamm treten müssen. Und es gibt keinen Platz mehr für Memmen, wenn unsere Elite nicht bereit ist, zu arbeiten, wird ein qualifizierterer Bürger diese Aufgabe übernehmen."
+officers_tech2: "Stabrotation für Unteroffiziere"
+officers_tech2_desc: "Eine Vielfalt von erfahrenen Unteroffizieren und anderem angeworbenen Personal nahe mit dem Generalsstab zusammenarbeiten zu haben, wird unseren beauftragten Offizieren helfen, die Bedürfnisse der Frontlinie besser zu verstehen und eine stärkere Verbindung zwischen Kommandanten und untergeordneten militärischen Einheiten zu erschaffen."
+officers_tech3: "Erfahrene Unteroffiziersausbilder"
+officers_tech3_desc: "Manche unserer erfahrensten Unteroffiziere von der Frontlinie zurückzurufen, könnte Alles kurzfristig verkomplizieren, aber diese Veteranen werden unseren Rekruten und neuem Personal helfen und ihre Ausbildung stark verbessern."
+flight_officers_tech1: "Flugschulen"
+flight_officers_tech1_desc: "Militärische Luftfahrt wird die Zukunft sein und wir benötigen qualifizierte militärische Piloten dafür. Durch die Anpassung unserer Flugschulen an die Bedürfnisse eines sich entwickelnden Schlachtfeldes können wir bessere und effektivere Piloten ausbilden."
+flight_officers_training1: "Flugmissionen Maximum"
+flight_officers_training1_desc: "Indem wir ein Limit setzen, wie oft unsere Piloten an Missionen teilnehmen dürfen, können wir diese erfahrenen Piloten benutzen, Neue auszubilden, wodurch die durchschnittliche Gesamtleistung unserer Luftwaffe erhöht wird.\n\n"
+flight_officers_honor1: "Ehre oder Tod"
+flight_officers_honor1_desc: "Unsere Fliegerasse sind unsere modernen, legendären Helden; große Krieger, representant für den Willen und die Macht der Luftwaffe unserer Nation. Wenn die Piloten des Gegners ihre Namen hören, kauern sie in Angst.\n\n"
+flight_officers_honor2: "Ehre oder Tod"
+flight_officers_honor2_desc: "Unsere Piloten werden das letzte Opfer für den Ruhm unserer Nation erfüllen. Unsere Soldaten sollen dem Tod begegnen, aber unsere heroischen Piloten sollen ihn umarmen."
+
+flight_officers_honor2_special: "\n\n\n\n\n\n\n\nErlaubt Kamikaze-Einsätze und Selbstmordattacken gegen feindliche Schiffe."
+
+# Press Tech
+
+tactics_TITLE_civilian: "Ziviles Amt"
+civilian_technology_desc: "Unsere zivilen Ministerien und Propaganda können uns helfen, unsere Zivilbevölkerung zu einem nützlichen Werkzeug zu machen, um gegen unsere Feinde zu handeln."
+
+press_tech1: "Presse-Integration"
+press_tech1_desc: "Unsere Presse kann unserem Staat dienen. Wenn wir die Öffentlichkeit in unsere öffentlichen Pläne einlassen und den richtigen Punkt darauf setzen, können wir die öffentliche Unterstützung (und Wut) einsetzen, wo wir sie brauchen, auch wenn es darum geht, sie mit alternativen Fakten zu belügen."
+
+press_censorship1: "Zensur"
+press_censorship1_desc: "Mit der Zensur können wir empfindliche Informationen unterdrücken und die erhaltenen Informationen des Feindes reduzieren, also ihre Kraft und Einfluss auf unsere Truppen verringern. Weitere solcher Anstrengungen und die erhöhung der Angst vor Spionen im Volk wird es tatsächlichen Spionen schwerer machen, effizient zu arbeiten."
+
+press_media1: "Manipulierte Medien"
+press_media1_desc: "Die Medien sollen weiter integriert werden und über die großen Errungenschaften unserer Nation berichten. Ob Diese wahr sind, oder nicht, ist ein Detail, welches die Öffentlichkeit nicht wissen muss."
+press_media2: "Oppositionsunterdrückung"
+press_media2_desc: "Indem wir unsere politischen Gegner zensieren und isolieren, können wir fremde Mächte und feindliche Ideologien davon abhalten unsere Nation zu korrumpieren."
+
+press_trucks1: "Umbau ziviler Lastwagen"
+press_trucks1_desc: "Zivile Lastwagen und Fahrzeuge können leicht umgebaut werden, um unseren Kriegsanstrengungen zu helfen und von unserer Armee eingesetzt zu werden. Dies ermöglicht es uns, zivile Automobil-Werke zu verwenden, um Armee-Fahrzeuge zu produzieren."
+press_trucks1_tt: "Senkt die Produktionskosten für motorisierte Geräte"
+press_trucks1_special_desc: "Gewinnt nationalen Geist \"Umbau ziviler Lastwagen\", was die Produktionskosten für motorisierte Geräte senkt"
+civilian_truck_conversation: "Umbau ziviler Lastwagen"
+press_trucks2: "Zivile Fahrzeuge einziehen"
+press_trucks2_desc: "Zivile Lastwagen, Militärfahrzeuge; blinzle und du wirst den Unterschied nicht bemerken; und hoffentlich werden unsere Truppen auch nicht."
+press_trucks2_special_desc: "\n\n\nWir werden von unserer Zivilbevölkerung fordern, ihre Fahrzeuge dem Kriegsvorhaben zu \"spenden\".\n\nJe industrialisierter unsere Nation ist, desto mehr Fahrzeuge stehen für uns zur Verfügung."
+press_trucks2_tt: "Zivile Fahrzeuge einziehen"
+press_tech_event.1.tt: "Es wird höchstwahrscheinlich eine öffentliche Gegenreaktion geben.\n"
+
+press_tech_event.1.t: "Zivile Fahrzeuge einziehen"
+press_tech_event.1.a: "Wir alle müssen manchmal für das Wohl Opfer bringen."
+press_tech_event.1.d: "Unsere Leute konnten \"überredet\" werden, ihre Fahrzeuge dem Kriegsvorhaben zu spenden. Viele sind nicht glücklich darüber, aber viele verstehen die Notwendigkeit dafür. Wir werden diese Fahrzeuge gut nutzen.\n\nDie Zeit wird zeigen, ob diese Entscheidung wirklich eine gute Idee war."
+
+press_mobilisation1: "Verfeinerte Kriegsanleihen-Reize"
+press_mobilisation1_desc: "Wir können Propaganda verwenden, um unsere Bevölkerung zu überreden, ihr Geld für Kriegsanleihen auszugeben."
+press_mobilisation2: "Verfeinerter Kriegsanleihen-Reiz"
+press_mobilisation2_desc: "Mit Propaganda und dem beschimpfen von Menschen als Waschlappen und Feiglinge, können wir mehr Menschen zu unseren Kräften bringen."
