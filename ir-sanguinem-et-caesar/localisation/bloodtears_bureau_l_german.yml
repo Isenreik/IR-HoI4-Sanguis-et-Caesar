@@ -3,6 +3,8 @@ l_german:
 bureau_folder: "Taktik & Amt"
 bureau_folder_desc: "Verschiedene Taktiken und Zivilministerien."
 
+bureau_laws: "Ämter"
+
 ## Officers
 
 tactics_TITLE_OFFICERS: "OFFIZIERE & AUSBILDUNG"

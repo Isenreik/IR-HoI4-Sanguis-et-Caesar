@@ -30,7 +30,7 @@ flight_officers_honor1_desc: "Our flying aces are our modern legendary heroes; g
 flight_officers_honor2: "Honour in Death"
 flight_officers_honor2_desc: "Our pilots shall perform the ultimate sacrifice for the glory of our nation. Our soldiers are expected to face death, but our heroic pilots shall embrace it."
 
-flight_officers_honor2_special: "\n\n\n\n\n\n\n\nAllows Kamikaze Strikes air missions, suicide attacks against enemy ships."
+flight_officers_honor2_special: "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAllows Kamikaze Strikes air missions, suicide attacks against enemy ships."
 
 officers_military_schools_army: "Expanded Military Academies"
 officers_military_schools_army_desc: "Needs writing."
@@ -59,8 +59,8 @@ press_media2_desc: "Needs to be written"
 
 press_trucks1: "Commandeer Civilian Vehicles"
 press_trucks1_desc: "Civilian trucks, military trucks; squint your eyes and you won't notice the difference; and hopefully our troops won't either."
-press_trucks1_special_desc: "\n\n\nWe will demand our civilian population to chip in and \"donate\" their civilian trucks and cars to the war effort.\n\nThe more industrialised our nation is, the more vehicles will be available for us."
-press_trucks1_tt: "Commandeer Civilian Vehicles"
+press_trucks1_special_desc: "\n\n\n\n\n\nWe will demand our civilian population to chip in and \"donate\" their civilian trucks and cars to the war effort.\n\nThe more industrialised our nation is, the more vehicles will be available for us.\n\n           Allows the §YComandeer Civilian Vehicles Law§!\n"
+press_trucks1_tt: "Allows the §YComandeer Civilian Vehicles Law§!\n"
 press_trucks2: "Civilian Truck conversion"
 press_trucks2_desc: "Civilian trucks and vehicles can easily be refitted to help our war effort and be employed by our army. This allows us to use civilian automotive plants to produce army-grade vehicles."
 press_trucks2_tt: "Lowers Production Cost for Motorised Equipment"
@@ -68,6 +68,10 @@ press_trucks2_special_desc: "Gains National Spirit \"Civilian Truck conversion\"
 civilian_truck_conversion: "Civilian Truck conversion"
 
 press_tech_event.1.tt: "There will most likely be a public backlash.\n"
+
+bureau_laws: "Bureaus"
+
+commandeer_trucks_decision: "Comandeer Civilian Vehicles"
 
 press_tech_event.1.t: "Commandeer Civilian Vehicles"
 press_tech_event.1.a: "We all have to sacrifice for the greater good sometimes."
