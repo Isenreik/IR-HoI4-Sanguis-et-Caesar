@@ -2,9 +2,9 @@
 
 spriteTypes = {
 
-  SpriteType = { name = "GFX_chemical_tech_bg"           texturefile = "gfx//chemical_warfare_bg.dds"  }
-  SpriteType = { name = "GFX_officers_tech_bg"           texturefile = "gfx//officers_bg.dds"  }
+  SpriteType = { name = "GFX_officers_tech_bg"           texturefile = "gfx//bg_officers.dds"  }
   SpriteType = { name = "GFX_civilian_bureau_tech_bg"    texturefile = "gfx//rationing_bg.dds"  }
+  SpriteType = { name = "GFX_chemical_tech_bg"           texturefile = "gfx//chemical_warfare_bg.dds"  }
 
   SpriteType = { name = "GFX_chemical_warfare_tech_medium"          texturefile = "gfx//interface//technologies//chemical_warfare.dds"    alwaystransparent = yes	}
   SpriteType = { name = "GFX_simple_gasmasks_medium"                texturefile = "gfx//interface//technologies//simple_gasmask.dds"    alwaystransparent = yes	}
